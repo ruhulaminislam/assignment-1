@@ -54,4 +54,60 @@ header{
 
                  /* nab-bar-end */
 
-             
+                                      
+                                /* hero-banner-start */
+     .hero-banner{
+
+        background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), 
+        url('./assets/images.png');
+       height: 90vh;
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        
+     }            
+
+         .hero-text{
+              /* margin: 150px auto; */
+              margin-top: 140px;
+              padding: 20px 20px;
+              
+
+         }
+
+         .button-div{
+            /* margin: 50px auto; */
+
+            margin-bottom: 100px;
+              padding: 20px 20px;
+         }
+
+         .hero-text h1{
+
+            color: #FFFFFF;
+            font-size: 70px;
+            font-weight: bold;
+         }
+
+         .hero-text p{
+
+               color: #E6E6E6;
+               font-size: 18px;
+               font-weight: 600;
+               line-height: 1;
+               word-spacing: 4px;
+         }
+
+         .button-banner{
+
+            padding: 15px 35px ;
+         }
+
+
+                  /* hero-banner-end  */
