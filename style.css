@@ -115,7 +115,9 @@ header{
 
          .button-banner{
 
-            padding: 15px 35px ;
+            padding: 20px 45px ;
+            font-size: 24px;
+            font-weight: bold;
          }
 
 
@@ -179,3 +181,139 @@ header{
                       }
 
                       /* Meet the Speakers-end  */
+
+                      /* start-Secure-Your-Spot */
+
+                      .mather-card{
+
+                        display: grid;
+                        grid-template-columns: repeat(3,350px);
+                         /* gap: 1px; */
+                         justify-content: center;
+
+                         
+                       
+                        
+                      }
+
+                      .card-heard{
+                        padding-top: 80px;
+                        padding-bottom: 35px;
+                        align-items: center;
+                        text-align: center;
+                        
+                      }
+
+                      .card-heard h2{
+                        font-size: 48px;
+                        font-weight: bold;
+                        color: #0D1B2A;
+                        margin-bottom: 7px;
+                      }
+                      .card-heard p{
+                        font-size: 16px;
+                        font-weight: 600;
+                        color: #575757;
+                      }
+
+                       .mather-card div{
+
+                        background-color: #FFFFFF;
+                        border-radius: 10px;
+                        border: 1px solid #E5E7EB;
+                         overflow: hidden;
+                         padding: 30px 25px 20px 25px !important;
+                           margin: 15px;
+
+                       }
+
+                       .mather-card div .fast-p{
+
+                         font-size: 20px;
+                         font-weight: 700;
+                         /* padding: 10px;
+                         margin: 10px; */
+                         margin-bottom: 7px;
+                       }
+
+                       .mather-card div h1{
+
+                           font-size: 44px;
+                           font-weight: bold;
+                           margin-bottom: 5px;
+                       }
+
+                       .mather-card div p{
+
+                        font-size: 20px;
+                        font-weight: 400;
+                        margin-bottom: 20px;
+                        color: #888888;
+                       }
+                      .mather-card div li{
+
+                        font-size: 14px;
+                        font-weight: 400;
+                        /* padding: 20px; */
+                        margin-left: 18px;
+                        margin-top: 15px;
+                        color: #333333;
+                        
+
+                      }
+                        
+
+                     
+                        
+
+                      .second-card{
+                       background-color: #0D1B2A !important;
+                       
+
+                       color: #FFFFFF;
+                     }
+                       .therd-card{
+                        background-color: #F8F9FB !important; 
+
+                       }
+                     
+                     .second-card .fast-p{
+                      color: #93C5FD;
+                     }
+                     .second-card p{
+                      color: #868D95;
+                     }
+                      .second-card li{
+                        color: #CFD1D4 !important;
+                      }
+
+                     .mather-card li::marker{
+
+                      color: #2563EB !important;
+                     }
+
+                     .secure-1{
+                        color: #2563EB !important;
+                        border: 1px solid #2563EB !important;
+                        background-color: #FFFFFF !important;
+
+                     }
+                     .secure-2{
+                        
+                          background-color: #2563EB !important;
+                     }
+                   .secure{
+
+                    width: 100%;
+                    padding: 7px;
+                    font-size: 16px;
+                    font-weight: 700;
+                    margin-top: 15px;
+                    color: #0D1B2A;
+                 border-radius: 8px;
+                 border: 1px solid #0D1B2A;
+                 background-color: #F8F9FB;
+
+                   }
+
+                   /* end-Secure-Your-Spot */
