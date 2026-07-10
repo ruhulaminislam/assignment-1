@@ -77,6 +77,7 @@ header{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        /* justify-content: center; */
         text-align: center;
         align-items: center;
         
@@ -86,7 +87,7 @@ header{
               /* margin: 150px auto; */
               margin-top: 140px;
               padding: 20px 20px;
-              
+              /* margin-top: 30px; */
 
          }
 
@@ -730,3 +731,38 @@ header{
 
 
     /* ai-section end */
+
+
+      /* foooter-section-start  */
+
+      .footer-mother{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        max-width: 1500px;
+        margin: 0 auto;
+      }
+
+      .footer-icon{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+         
+      }
+      .footer-icon img{
+        padding: 5px;
+        margin: 5px;
+
+      }
+
+      .footer-section{
+
+        background-color: #0D1B2A;
+      }
+      .footer-section p{
+
+        color: #F7F8FA;
+
+        margin-left: 10px;
+      }
